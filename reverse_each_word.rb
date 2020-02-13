@@ -8,3 +8,10 @@ def reverse_each_word(string)
   return new_sentence.join(" ")
 end
 
+def reverse_each_word_with_collect(string)
+  yeet = string.split(" ")
+
+  yeet.collect do |word|
+    word.reverse
+  end
+end
