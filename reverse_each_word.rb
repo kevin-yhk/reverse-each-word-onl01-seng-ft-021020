@@ -7,3 +7,10 @@ def reverse_each_word(string)
   end
   return new_sentence.join(" ")
 end
+
+do reverse_each_word_with_collect(string)
+  string_new = string.split(" ")
+  
+  string_new.collect do |word|
+  end
+end
