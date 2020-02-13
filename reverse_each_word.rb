@@ -14,4 +14,5 @@ def reverse_each_word_with_collect(string)
   yeet.collect do |word|
     word.reverse
   end
+  return yeet.join(" ")
 end
